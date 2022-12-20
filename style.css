@@ -1,0 +1,34 @@
+body {
+    font-family: 'Garamond', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    /* color: linear-gradient(gold, brown); */
+    /* color: yellow; */
+    background-image: linear-gradient(60deg, gold, brown);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 1000;
+
+}
+
+.ul-wrap {
+    text-align: center;
+}
+
+ul.homepage {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul.homepage li {
+    margin: 10px 0;
+}
+
+ul.homepage > li > a{
+
+}
+
